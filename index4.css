@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+header{
+    
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav-titel{
+    font-size: 2.8rem;
+    font-weight: 700px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+.logo{
+
+    display: flex;
+    gap: 50px;
+}
+.teams-container{
+    display: flex;
+}
+.container-txt{
+   
+}
+.btn-primary{
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.6rem;
+background : #FF900E;
+padding: 20px 25px;
+cursor: pointer;
+border: 0;
+}
+.btn{
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.6rem;
+    background: #FF5400; 
+padding: 20px 25px;
+cursor: pointer;
+border: 0;
+}
+.container-txt2{
+    text-align: center;
+    
+}
+.container-txt2 h1{
+    font-size: 40px; 
+
+    font-weight: 800; 
+    font-family: Mulish; 
+}
+
+
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.container-txt3{
+    display: flex;
+   
+
+}
+.box1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 573px;
+height: 284px;
+flex-shrink: 0;
+}
+.box2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 573px;
+height: 284px;
+flex-shrink: 0;
+margin-left: 50px;
+
+}
+.box3{
+    text-align: center;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+width: 573px;
+height: 284px;
+margin-top: 50px;
+margin-right: 100px;
+margin-left: ;
+
+}
+.box3 h1{
+    text-align: start;
+}
+.back{
+    margin: 3%;
+            position: relative;
+        }
+ 
+        /*This CSS code is defining the
+        styles for a container that holds text*/
+        .text-container {
+            
+            position: absolute;
+            color: #131318; 
+            left: 18rem;
+            top: 2rem;
+            border-radius: 16px;
+            border: 2px solid #FFF; 
+            background: rgba(255, 255, 255, 0.80); 
+            width: 579px;
+            height: 389px;
+flex-shrink: 0;
+            padding: 0 1rem;
+        
+
+}
+#f{
+    display: flex;
+}
+.all-f{
+    display: flex;
+}
+.all-f img{
+    width: 24px;
+height: 24px; 
+}
+.all-f p{
+    font-size: 16px; 
+    font-style: normal;
+font-weight: 400; 
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1300px;
+height: 502px;
+flex-shrink: 0;
+margin-left: 120px;
+text-align: center;
+}
