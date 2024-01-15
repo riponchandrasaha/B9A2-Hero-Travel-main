@@ -39,8 +39,31 @@ nav li{
 .teams-container{
     display: flex;
 }
-.container-txt{
-   
+
+.back1{
+    margin: 1%;
+            position: relative;
+            width: 1170px;
+height: 500px;
+flex-shrink: 0;
+        }
+ 
+        
+        .text-container1 {
+            
+            position: absolute;
+            color: #FFF; 
+            left: 18rem;
+            top: 2rem;
+            border-radius: 16px;
+            
+           
+            width: 579px;
+            height: 389px;
+
+            padding: 0 1rem;
+        
+
 }
 .btn-primary{
     border-radius: 8px;
@@ -56,10 +79,42 @@ border: 0;
     color: #fff;
     font-size: 1.6rem;
     background: #FF5400; 
-padding: 20px 25px;
+padding: 15px 20px;
 cursor: pointer;
 border: 0;
 }
+.btn2{
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.6rem;
+    background: #FF5400; 
+padding: 15px 20px;
+cursor: pointer;
+border: 0;
+
+}
+.btn1{
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50); 
+    font-size: 1.6rem;
+    background: #FFF;  
+padding: 15px 20px;
+cursor: pointer;
+border: 0;
+
+}
+.display{
+    
+    justify-content: space-between;
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+
 .container-txt2{
     text-align: center;
     
@@ -88,6 +143,7 @@ background: rgba(251, 181, 99, 0.05);
 width: 573px;
 height: 284px;
 flex-shrink: 0;
+
 }
 .box2{
     border-radius: 16px;
@@ -115,28 +171,80 @@ margin-left: ;
     text-align: start;
 }
 .back{
-    margin: 3%;
+    margin: 4%;
             position: relative;
         }
  
-        /*This CSS code is defining the
-        styles for a container that holds text*/
+        
         .text-container {
             
             position: absolute;
             color: #131318; 
-            left: 18rem;
-            top: 2rem;
-            border-radius: 16px;
+            left: 31rem;
+            top: 3.5rem;
+            border-radius: 8px;
             border: 2px solid #FFF; 
             background: rgba(255, 255, 255, 0.80); 
             width: 579px;
             height: 389px;
-flex-shrink: 0;
+
             padding: 0 1rem;
+            backdrop-filter: blur(2.5px); 
         
 
 }
+
+        .text-containerm {
+            
+            position: absolute;
+            color: #131318; 
+            left: 3.8rem;
+            top: 3.5rem;
+            border-radius: 8px;
+            border: 2px solid #FFF; 
+            background: rgba(255, 255, 255, 0.80); 
+            width: 579px;
+            height: 389px;
+
+            padding: 0 1rem;
+            backdrop-filter: blur(2.5px); 
+        
+
+}
+.back5{
+    margin: 4%;
+            position: relative;
+            
+        }
+ 
+        
+        .text-container5 {
+            
+            position: absolute;
+            color: #FFF; 
+            left: 19.5rem;
+            top: 15.66rem;
+            border-radius: 16px;
+            
+            background:#FF5400; 
+            width: 324px;
+            height: 120px; 
+
+            padding: 0 1rem;
+            backdrop-filter: blur(2.5px); 
+            transform: rotate(-19.628deg); 
+        
+
+text-align: center;
+
+     
+
+}
+
+#color{
+    color: #FF5400; 
+}
+
 #f{
     display: flex;
 }
@@ -152,6 +260,10 @@ height: 24px;
     font-style: normal;
 font-weight: 400; 
 }
+.logo2{
+    display: flex;
+    margin-left: 510px;
+}
 footer{
     background: rgba(19, 19, 24, 0.05);
     width: 1300px;
@@ -159,4 +271,5 @@ height: 502px;
 flex-shrink: 0;
 margin-left: 120px;
 text-align: center;
+padding-top: 50px;
 }
