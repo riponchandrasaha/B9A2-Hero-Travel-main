@@ -9,12 +9,14 @@
 header{
     
     padding: 50px 240px;
+    
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
    
 }
 
@@ -27,7 +29,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 20px;
     font-weight: 500px;
     font-size: 1rem;
 }
@@ -36,16 +38,15 @@ nav li{
     display: flex;
     gap: 50px;
 }
-.teams-container{
-    display: flex;
-}
+
 
 .back1{
-    margin: 1%;
+    
             position: relative;
-            width: 1170px;
-height: 500px;
-flex-shrink: 0;
+            
+            
+            
+
         }
  
         
@@ -57,7 +58,7 @@ flex-shrink: 0;
             top: 2rem;
             border-radius: 16px;
             
-           
+            text-align: center;
             width: 579px;
             height: 389px;
 
@@ -65,6 +66,51 @@ flex-shrink: 0;
         
 
 }
+.img{
+    width: 100%;
+}
+
+.text-container1 h1{
+   
+
+font-size: 64px;
+
+font-weight: 800;
+
+}
+.row1{
+   display: flex;
+   gap: 25px;
+   margin-bottom: 15px;
+   
+   
+}
+.row2{
+    display: flex;
+    gap: 25px;
+    
+    padding-bottom: -150px;
+    
+ }
+ .row3{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 15px;
+    
+    
+ }
+
+ .t5{
+
+    position: absolute;
+            
+           
+            
+          
+
+            
+          
+ }
 .btn-primary{
     border-radius: 8px;
     color: #fff;
@@ -125,7 +171,67 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     font-weight: 800; 
     font-family: Mulish; 
 }
+.sign{
+   
+margin: auto;
+height: 400px;
+width: 100%;
 
+
+border: 1px solid #FF5400; 
+border-radius: 16px; 
+
+}
+.teams-container{
+    min-height: 50vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.left{
+   width: 45%;
+}
+.right{
+
+display: block;
+object-fit: cover;
+object-position: center;
+width: 45%;
+}
+form{
+    width: 100%;
+height: 52px; 
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+
+}
+form input{
+    width: 60%;
+    padding: 7px;
+    color: rgba(19, 19, 24, 0.30); 
+    border: 0;
+}
+.flexbox{
+
+    display: flex;
+}
+.subcribe{
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50); 
+    font-size: 1.6rem;
+    background: #FF5400; 
+    color: #FFF; 
+padding: 7px;
+cursor: pointer;
+border: 0;
+width: auto;
+
+}
 
 main{
     max-width: 1440px;
@@ -211,9 +317,11 @@ margin-left: ;
         
 
 }
+
 .back5{
     margin: 4%;
             position: relative;
+            margin-left: 100px;
             
         }
  
