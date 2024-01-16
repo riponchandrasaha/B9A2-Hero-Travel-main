@@ -3,12 +3,13 @@
 *{
 
     font-family: 'Work Sans', sans-serif;
+   
 }
 
 
 header{
     
-    padding: 50px 240px;
+    padding: 25px 240px;
     
 }
 
@@ -44,7 +45,13 @@ nav li{
     
             position: relative;
             
-            
+            min-height: 50vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            padding-top: 50px;
             
 
         }
@@ -55,7 +62,7 @@ nav li{
             position: absolute;
             color: #FFF; 
             left: 18rem;
-            top: 2rem;
+            top: 11rem;
             border-radius: 16px;
             
             text-align: center;
@@ -149,6 +156,19 @@ cursor: pointer;
 border: 0;
 
 }
+.pack{
+    border-radius: 8px;
+    color: #fff;
+    
+    background: #FF5400; 
+padding: 15px 20px;
+cursor: pointer;
+border: 0;
+text-align: center;
+font-size: 20px; 
+
+
+}
 .display{
     
     justify-content: space-between;
@@ -175,12 +195,15 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
    
 margin: auto;
 height: 400px;
-width: 100%;
+width: 60%;
 
 
 border: 1px solid #FF5400; 
 border-radius: 16px; 
 
+}
+.left2{
+    width: 45%;
 }
 .teams-container{
     min-height: 50vh;
@@ -194,7 +217,6 @@ border-radius: 16px;
 .left{
    width: 45%;
 }
-.right{
 
 display: block;
 object-fit: cover;
@@ -205,32 +227,42 @@ form{
     width: 100%;
 height: 52px; 
 }
-form label{
+form{
     display: flex;
     margin-top: 20px;
+    flex-direction: column;
 
 }
-form input{
+form{
+    padding: 8px;
     width: 60%;
     padding: 7px;
     color: rgba(19, 19, 24, 0.30); 
     border: 0;
 }
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
 .flexbox{
 
     display: flex;
 }
 .subcribe{
-    border-radius: 8px;
-    color: rgba(19, 19, 24, 0.50); 
-    font-size: 1.6rem;
-    background: #FF5400; 
-    color: #FFF; 
-padding: 7px;
-cursor: pointer;
-border: 0;
-width: auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
 
+}
+button:hover {
+    background-color: #45a049;
 }
 
 main{
@@ -351,8 +383,15 @@ text-align: center;
 
 #color{
     color: #FF5400; 
-}
 
+}
+.hero {
+padding-left: 2%;
+
+}
+.icon{
+    padding-left: 32%;
+}
 #f{
     display: flex;
 }
@@ -372,12 +411,77 @@ font-weight: 400;
     display: flex;
     margin-left: 510px;
 }
+
+
+
+
+
 footer{
     background: rgba(19, 19, 24, 0.05);
-    width: 1300px;
+    width: 100%;
 height: 502px;
 flex-shrink: 0;
-margin-left: 120px;
+margin-left: 100px;
 text-align: center;
 padding-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 20px;
+    }
+    nav, .row1,.row2,.row3,.res,.teams-container, .p{
+        flex-direction: column;
+    }
+   .res1{
+        flex-direction: column;
+        width: 335px;
+height: 500px; 
+border-radius: 16px; 
+    }
+    .container-txt3{
+
+        flex-direction: column;
+    }
+    .teams-container{
+        min-height: 160vh;
+        width: 100%;
+        
+        
+        margin: 0;
+        
+        padding-top: 50px;
+    }
+    .right{
+    width: max-content;
+    }
+    .back1{
+        border-right-width: 100px;
+        border-top-right-radius: 50px;
+       
+    }
+    .row1{
+
+        grid-template-columns: repeat(1, 1fr);
+        width: 335px;
+    }
+    .row2{
+
+        width: 70px;
+
+    }
+    footer{
+        width: 375px;
+        height: 309px; 
+    }
+    .hero{
+       
+    
+        padding-right: 2000px;
+    }
+
+
+
+
 }
